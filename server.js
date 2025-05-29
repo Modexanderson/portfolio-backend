@@ -11,7 +11,7 @@ const PORT = process.env.PORT || 5000;
 app.use(cors({
     origin: [
         'http://localhost:3000',
-        'https://your-firebase-app.web.app',
+        'https://my-portfolio-853e1.web.app',
         'https://your-firebase-app.firebaseapp.com',
         'https://yourdomain.com' // Add your custom domain if you have one
     ],
